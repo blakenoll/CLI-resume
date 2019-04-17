@@ -1,15 +1,16 @@
 # CLI-resume
 CLI version of my resume
 
-# Install
+## Install
 
 ```bash
-npm i -g blakenoll
+$ npm i -g blakenoll
 ```
 
-# Usage
+## Usage
+To interact with my resume simply run:
 
 ```bash
-blakenoll
+$ blakenoll
 ```
 
