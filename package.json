@@ -1,0 +1,20 @@
+{
+  "name": "blakenoll",
+  "version": "1.0.0",
+  "description": "cli version of my resume",
+  "main": "index.js",
+  "bin": {
+    "blakenoll": "./bin/start.js"
+  },
+  "author": "Blake Noll <nollblake@gmail.com> (https://blakenoll.com)",
+  "license": "ISC",
+  "keywords": [
+    "resume",
+    "cli"
+  ],
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "inquirer": "^6.2.2",
+    "node-fetch": "^2.3.0"
+  }
+}
