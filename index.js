@@ -62,7 +62,7 @@ function resumeHandler() {
   });
 }
 
-fetch("https://registry.npmjs.org/gnarly-graphql")
+fetch("https://registry.npmjs.org/blakenoll")
   .then(res => res.json())
   .then(json => {
     const currentVersion = json["dist-tags"].latest;
