@@ -7,7 +7,7 @@
     "blakenoll": "./bin/start.js"
   },
   "author": "Blake Noll <nollblake@gmail.com> (https://blakenoll.com)",
-  "license": "ISC",
+  "license": "MIT",
   "keywords": [
     "resume",
     "cli"
