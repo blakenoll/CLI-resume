@@ -1,5 +1,6 @@
-# CLI-resume
-My resume as a CLI
+# CLI version of my resume
+📄 PDF availble at [blakenoll.com](https://blakenoll.com)
+
 ## Getting started
 
 ### Download
@@ -15,4 +16,4 @@ To interact with my resume simply run:
 $ blakenoll
 ```
 ### Updates
-The CLI will automatically check for updates and if an update is availible it will alert you with instructions on how to update.
+The CLI will automatically check for updates and if an update is available it will prompt you with update instructions.
