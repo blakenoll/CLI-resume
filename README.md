@@ -1,4 +1,4 @@
-# CLI version of my resume
+# CLI version of my resume [![npm version](https://badge.fury.io/js/blakenoll.svg)](https://badge.fury.io/js/blakenoll)
 📄 PDF availble at [blakenoll.com](https://blakenoll.com)
 
 ## Getting started
