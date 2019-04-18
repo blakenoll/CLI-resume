@@ -14,4 +14,5 @@ To interact with my resume simply run:
 ```bash
 $ blakenoll
 ```
-
+### Updates
+The CLI will automatically check for updates and if an update is availible it will alert you with instructions on how to update.
