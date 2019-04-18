@@ -1,5 +1,5 @@
 # CLI-resume
-CLI version of my resume
+My resume as a CLI
 ## Getting started
 
 ### Download
