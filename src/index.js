@@ -78,9 +78,7 @@ module.exports = function run() {
             green(`${currentVersion}`)
         );
         console.log(
-          white("Run: ") +
-            cyan("npm i -g blakeNollResume") +
-            white(" to upgrade")
+          white("Run: ") + cyan("npm i -g blakenoll") + white(" to upgrade")
         );
         console.log(green("---------------------------------------------"));
       } else {
