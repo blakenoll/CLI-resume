@@ -1,13 +1,14 @@
 # CLI-resume
 CLI version of my resume
+## Getting started
 
-## Download
-Via NPM
+### Download
+Via npm
 ```bash
 $ npm i -g blakenoll
 ```
 
-## Usage
+### Usage
 To interact with my resume simply run:
 
 ```bash
