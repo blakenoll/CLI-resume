@@ -1,8 +1,8 @@
 # CLI-resume
 CLI version of my resume
 
-## Install
-
+## Download
+Via NPM
 ```bash
 $ npm i -g blakenoll
 ```
