@@ -4,7 +4,7 @@
   "description": "cli version of my resume",
   "main": "index.js",
   "bin": {
-    "blakenoll": "index.js"
+    "blakenoll": "./bin/run.js"
   },
   "author": "Blake Noll <nollblake@gmail.com> (https://blakenoll.com)",
   "license": "MIT",

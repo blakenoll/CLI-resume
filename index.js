@@ -62,29 +62,33 @@ function resumeHandler() {
   });
 }
 
-fetch("https://registry.npmjs.org/blakenoll")
-  .then(res => res.json())
-  .then(json => {
-    const currentVersion = json["dist-tags"].latest;
-    // check for new version
-    if (currentVersion !== version) {
-      console.log("");
-      console.log(green("---------------------------------------------"));
-      console.log(
-        "Update available! " +
-          dimWhite(`${version}`) +
-          " => " +
-          green(`${currentVersion}`)
-      );
-      console.log(
-        white("Run: ") + cyan("npm i -g blakeNollResume") + white(" to upgrade")
-      );
-      console.log(green("---------------------------------------------"));
-    } else {
+module.exports = function run() {
+  fetch("https://registry.npmjs.org/blakenoll")
+    .then(res => res.json())
+    .then(json => {
+      const currentVersion = json["dist-tags"].latest;
+      // check for new version
+      if (currentVersion !== version) {
+        console.log("");
+        console.log(green("---------------------------------------------"));
+        console.log(
+          "Update available! " +
+            dimWhite(`${version}`) +
+            " => " +
+            green(`${currentVersion}`)
+        );
+        console.log(
+          white("Run: ") +
+            cyan("npm i -g blakeNollResume") +
+            white(" to upgrade")
+        );
+        console.log(green("---------------------------------------------"));
+      } else {
+        main();
+      }
+    })
+    .catch(() => {
+      // if fetch fails run main()
       main();
-    }
-  })
-  .catch(() => {
-    // if fetch fails run main()
-    main();
-  });
+    });
+};

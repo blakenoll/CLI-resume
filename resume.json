@@ -10,17 +10,17 @@
     {
       "title": "Web Developer", 
       "content": "- The Master's University (2016 - present)",
-      "description": "blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah"
+      "description": "Oversee the architecture, development and integration of all web content. Develop internal applications to assist marketing research. Architect and execute new website functionality by integrating with various CMS’s and API’s"
     },
     {
       "title": "Web Developer",
       "content": "- Freelance",
-      "description": "blah blah blah"
+      "description": "Meet with clients to determine their needs. Develop self-motivated projects to learn new technologies. Work with technologies such as React, Gatsby, GraphQL, Rails, and Node"
     },
     {
       "title": "Web Developer Intern",
       "content": "Kick & Push Inc",
-      "description": "blah blah blah"
+      "description": "Fixed bugs in a Node.js codebase. Tested code on a development EC2 instance before pushing to production. Worked in an agile environment and completed tasks assigned."
     }
   ],
   "Education": [
