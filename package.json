@@ -7,6 +7,7 @@
     "blakenoll": "./bin/run.js"
   },
   "author": "Blake Noll <nollblake@gmail.com> (https://blakenoll.com)",
+  "repository": "https://github.com/blakenoll/CLI-resume",
   "license": "MIT",
   "keywords": [
     "resume",
