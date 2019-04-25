@@ -9,18 +9,45 @@
   "Applicable Experience": [
     {
       "title": "Web Developer", 
-      "content": "- The Master's University (2016 - present)",
+      "content": "- The Master's University (Aug 2016 - present)",
       "description": "Oversee the architecture, development and integration of all web content. Develop internal applications to assist marketing research. Architect and execute new website functionality by integrating with various CMS’s and API’s"
     },
     {
       "title": "Web Developer",
-      "content": "- Freelance",
+      "content": "- Freelance (2016 - present)",
       "description": "Meet with clients to determine their needs. Develop self-motivated projects to learn new technologies. Work with technologies such as React, Gatsby, GraphQL, Rails, and Node"
     },
     {
       "title": "Web Developer Intern",
-      "content": "Kick & Push Inc",
+      "content": "Kick & Push Inc (Apr 2016 - Feb 2017)",
       "description": "Fixed bugs in a Node.js codebase. Tested code on a development EC2 instance before pushing to production. Worked in an agile environment and completed tasks assigned."
+    }
+  ],
+  "Portfolio": [
+    {
+      "title": "masters.edu",
+      "content": "https://masters.edu",
+      "description": "Developed and designed the entire site. Moved from on premise hosting to static site hosted on a serverless architecture to remove the need for server-side rendering increasing page load time and decreasing hosting costs. Implemented Siteleaf as the CMS to allow non technical users to update content on the site. "
+    },
+    {
+      "title": "Lux Solutions website",
+      "content": "https://luxsolutions.com/",
+      "description": "Website built for a client with Gatsby.js and React and hosted on Netlify"
+    },
+    {
+      "title": "College Finder App (WIP)",
+      "content": "https://college-finder.netlify.com/",
+      "description": "College Finder app built using React that interacts with a GraphQL backend connected to a mongoDB database. Uses the new useReducer() hook to allow for shared global state that can be accessed in any component by using a custom hook."
+    },
+    {
+      "title": "Thinking Biblically",
+      "content": "https://thinking-biblically.masters.edu/",
+      "description": "Blog built with React, Gatsby.js and styled components. Uses Netlify CMS to edit and add content."
+    },
+    {
+      "title": "Personal Budget App",
+      "content": "https://vast-badlands-32950.herokuapp.com/",
+      "description": "Personal budget app built using Rails and Postgres with user login and authentification"
     }
   ],
   "Education": [
