@@ -1,6 +1,6 @@
 {
   "name": "blakenoll",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "cli version of my resume",
   "main": "index.js",
   "bin": {
