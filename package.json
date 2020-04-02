@@ -14,7 +14,7 @@
     "cli"
   ],
   "dependencies": {
-    "chalk": "^2.4.2",
+    "chalk": "^4.0.0",
     "inquirer": "^6.2.2",
     "node-fetch": "^2.3.0"
   }
